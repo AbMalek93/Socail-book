@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socail book</title>
+    <!-- fonts awesome -->
+    <script src="https://kit.fontawesome.com/774639eb8b.js" crossorigin="anonymous"></script>
+    <!-- fonts css -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- nav-head-part start -->
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="search">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="user-icon online" onclick="SettingMenuToggle()">
+                <img src="images/profile-1.png">
+            </div>
+        </div>
+        <!--------- setting-menu -------->
+        <div class="setting-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-1.png">
+                    <div>
+                        <p>Ab.Malek</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new Design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-link">
+                    <img src="images/setting.png" class="setting-icon">
+                    <a href="#">Setting & Privacy<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="images/help.png" class="setting-icon">
+                    <a href="#">Help & support<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="images/display.png" class="setting-icon">
+                    <a href="#">Display & Accessibility<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="images/logout.png" class="setting-icon">
+                    <a href="#">Logout<img src="images/arrow.png" width="10px"></a>
+                </div>
+
+            </div>
+        </div>
+
+    </nav>
+    <!-- nav-head-part end -->
+    <!-- container-part start -->
+    <div class="container">
+        <!--------- left-sideber -------->
+        <div class="left-sideber">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png">Latasted News</a>
+                <a href="#"><img src="images/friends.png">Friends</a>
+                <a href="#"><img src="images/group.png">Group</a>
+                <a href="#"><img src="images/marketplace.png">Marketplace</a>
+                <a href="#"><img src="images/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcurt-links">
+                <p>Your Shortcurt</p>
+                <a href="#"><img src="images/shortcut-1.png"><span>Web Developers</span></a>
+                <a href="#"><img src="images/shortcut-2.png">Web Design course</a>
+                <a href="#"><img src="images/shortcut-3.png">Full stick Developments</a>
+                <a href="#"><img src="images/shortcut-4.png">Website Expert</a>
+            </div>
+        </div>
+        <!--------- main-content -------->
+        <div class="main-content">
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/mark.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/Billgets.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/Alen mask.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/jeep bejos.png">
+                    <p>Post Story</p>
+                </div>
+            </div>
+
+            <div class="write-post-content">
+                <div class="user-profile">
+                    <img src="images/profile-1.png">
+                    <div>
+                        <p>Ab.Malek</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="what's on your mind Ab.Malek?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png">Live Video</a>
+                        <a href="#"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">Felling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-1.png">
+                        <div>
+                            <p>Ab.Malek</p>
+                            <span>February 24 2022 , 7:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Never give up. The present grit of
+                    teeth will give you the title of winner for the rest
+                    of your life.<span>@Ab.Malek</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like-blue.png">10.5k</div>
+                        <div><img src="images/comments.png">3k</div>
+                        <div><img src="images/share.png">1k</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-1.png">
+                        <img src="images/mark.png">
+                        <img src="images/mojib.png">
+                        <img src="images/Billgets.png">
+                        <img src="images/Alen mask.png">
+                        <img src="images/jeep bejos.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/mark.png">
+                        <div>
+                            <p>Mark Zuckerberg</p>
+                            <span>February 24 2022 , 7:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Never give up. The present grit of
+                    teeth will give you the title of winner for the rest
+                    of your life.<span>Mark Zuckerberg</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/mark-feed.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like-blue.png">10.5k</div>
+                        <div><img src="images/comments.png">3k</div>
+                        <div><img src="images/share.png">1k</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/mark.png">
+                        <img src="images/profile-1.png">
+                        <img src="images/Billgets.png">
+                        <img src="images/Alen mask.png">
+                        <img src="images/jeep bejos.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-1.png">
+                        <div>
+                            <p>Ab.Malek</p>
+                            <span>February 24 2022 , 7:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Try to do the best you can in your life. Do it in such a way that no one
+                    before or after you can do it so well. <span>@Ab.Malek</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like.png">3.5k</div>
+                        <div><img src="images/comments.png">1.5k</div>
+                        <div><img src="images/share.png">1k</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-1.png">
+                        <img src="images/mark.png">
+                        <img src="images/Billgets.png">
+                        <img src="images/Alen mask.png">
+                        <img src="images/jeep bejos.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/Billgets.png">
+                        <div>
+                            <p>Bill Gates</p>
+                            <span>March 01 2022 , 10:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Everyone has a story of life. It is never
+                    possible to change the beginning of a story by going back
+                    to the past, but with hard work you can rearrange the end
+                    of the story if you want.<span>Bil Gates</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/Bill Gates-feed.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like.png">2.5k</div>
+                        <div><img src="images/comments.png">1k</div>
+                        <div><img src="images/share.png">500</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/Billgets.png">
+                        <img src="images/mark.png">
+                        <img src="images/profile-1.png">
+                        <img src="images/Alen mask.png">
+                        <img src="images/jeep bejos.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-1.png">
+                        <div>
+                            <p>Ab.Malek</p>
+                            <span>February 24 2022 , 7:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Everyone has a story of life. It is never
+                    possible to change the beginning of a story by going back
+                    to the past, but with hard work you can rearrange the end
+                    of the story if you want.<span>@Ab.Malek</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like.png">2.5k</div>
+                        <div><img src="images/comments.png">1k</div>
+                        <div><img src="images/share.png">500</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-1.png">
+                        <img src="images/mark.png">
+                        <img src="images/Billgets.png">
+                        <img src="images/Alen mask.png">
+                        <img src="images/jeep bejos.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/Alen mask.png">
+                        <div>
+                            <p>Alon Musk</p>
+                            <span>Jun 03 2022 , 11:00 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Everyone has a story of life. It is never
+                    possible to change the beginning of a story by going back
+                    to the past, but with hard work you can rearrange the end
+                    of the story if you want.<span>Alon Musk</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/alon musk-feed.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like.png">2.5k</div>
+                        <div><img src="images/comments.png">1k</div>
+                        <div><img src="images/share.png">500</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/Alen mask.png">
+                        <img src="images/mark.png">
+                        <img src="images/profile-1.png">
+                        <img src="images/Billgets.png">
+                        <img src="images/jeep bejos.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-1.png">
+                        <div>
+                            <p>Ab.Malek</p>
+                            <span>February 24 2022 , 7:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> Look up at the sky. We are not alone.
+                    The whole universe is friendly to us.
+                    This world is conspiring to give the
+                    best only to those who dream and work.<span>@Ab.Malek</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like-blue.png">2.5k</div>
+                        <div><img src="images/comments.png">1k</div>
+                        <div><img src="images/share.png">1k</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-1.png">
+                        <img src="images/mark.png">
+                        <img src="images/Billgets.png">
+                        <img src="images/Alen mask.png">
+                        <img src="images/jeep bejos.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/jeep bejos.png">
+                        <div>
+                            <p>Jeff Bezos</p>
+                            <span>July 24 2022 , 7:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Everyone has a story of life. It is never
+                    possible to change the beginning of a story by going back
+                    to the past, but with hard work you can rearrange the end
+                    of the story if you want.<span>Jeff Bezos</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/jeep bejos-feed.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like.png">2.5k</div>
+                        <div><img src="images/comments.png">1k</div>
+                        <div><img src="images/share.png">500</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/jeep bejos.png">
+                        <img src="images/mark.png">
+                        <img src="images/profile-1.png">
+                        <img src="images/Billgets.png">
+                        <img src="images/Alen mask.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-1.png">
+                        <div>
+                            <p>Ab.Malek</p>
+                            <span>February 24 2022 , 7:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> Look up at the sky. We are not alone.
+                    The whole universe is friendly to us.
+                    This world is conspiring to give the
+                    best only to those who dream and work.<span>@Ab.Malek</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like-blue.png">2.5k</div>
+                        <div><img src="images/comments.png">1k</div>
+                        <div><img src="images/share.png">1k</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-1.png">
+                        <img src="images/mark.png">
+                        <img src="images/Billgets.png">
+                        <img src="images/Alen mask.png">
+                        <img src="images/jeep bejos.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/mojib.png">
+                        <div>
+                            <p>Sheakh Mojibor Rahman</p>
+                            <span>March 26 1971 , 7:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Everyone has a story of life. It is never
+                    possible to change the beginning of a story by going back
+                    to the past, but with hard work you can rearrange the end
+                    of the story if you want.<span>Sheakh Mojibor Rahman</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/mojib-feed.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like.png">2.5k</div>
+                        <div><img src="images/comments.png">1k</div>
+                        <div><img src="images/share.png">500</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/mojib.png">
+                        <img src="images/mark.png">
+                        <img src="images/profile-1.png">
+                        <img src="images/Billgets.png">
+                        <img src="images/Alen mask.png">
+                        <img src="images/jeep bejos.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/sazzad.png">
+                        <div>
+                            <p>Sazzad Shuvo</p>
+                            <span>February 24 2022 , 7:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> Look up at the sky. We are not alone.
+                    The whole universe is friendly to us.
+                    This world is conspiring to give the
+                    best only to those who dream and work.<span>Sazzad Shuvo</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/sazzad-feed.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like-blue.png">2.5k</div>
+                        <div><img src="images/comments.png">1k</div>
+                        <div><img src="images/share.png">1k</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/sazzad.png">
+                        <img src="images/mark.png">
+                        <img src="images/profile-1.png">
+                        <img src="images/Billgets.png">
+                        <img src="images/Alen mask.png">
+                        <img src="images/jeep bejos.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/rony.png">
+                        <div>
+                            <p>Rony Talukder</p>
+                            <span>February 24 2022 , 7:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> Look up at the sky. We are not alone.
+                    The whole universe is friendly to us.
+                    This world is conspiring to give the
+                    best only to those who dream and work.<span>Rony Talukder</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/rony-feed.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like-blue.png">2.5k</div>
+                        <div><img src="images/comments.png">1k</div>
+                        <div><img src="images/share.png">1k</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/rony.png">
+                        <img src="images/mark.png">
+                        <img src="images/profile-1.png">
+                        <img src="images/Billgets.png">
+                        <img src="images/Alen mask.png">
+                        <img src="images/jeep bejos.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-1.png">
+                        <div>
+                            <p>Ab.Malek</p>
+                            <span>February 24 2022 , 7:00 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text"> Look up at the sky. We are not alone.
+                    The whole universe is friendly to us.
+                    This world is conspiring to give the
+                    best only to those who dream and work.<span>Ab.Malek</span>
+                    <a href="https://www.facebook.com/eng.abdulmalekmia" target="Facebook">#Feacbook</a>
+                    <a href="https://www.twitter.com/meheranhasan" target="Twitter">#Twitter</a>
+                </p>
+                <img src="images/Ab-1.png" class="post-img">
+                <img src="images/Ab.png" class="post-img">
+                <div class="post-row">
+                    <div class="Activity-icon">
+                        <div><img src="images/like-blue.png">2.5k</div>
+                        <div><img src="images/comments.png">1k</div>
+                        <div><img src="images/share.png">1k</div>
+                    </div>
+
+                    <div class="post-profile-icon">
+                        <img src="images/profile-1.png">
+                        <img src="images/rony.png">
+                        <img src="images/mark.png">
+                        <img src="images/Billgets.png">
+                        <img src="images/Alen mask.png">
+                        <img src="images/jeep bejos.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="load-more-btn"> Load More</button>
+
+        </div>
+        <!--------- right-sideber ------->
+        <div class="right-sideber">
+            <div class="sideber-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>13</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Socail Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Sherpur,Mymensingh</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>23</h3>
+                    <span>june</span>
+                </div>
+                <div class="right-event">
+                    <h4>Moble Marketing</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Sherpur,Mymensingh</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="sideber-title">
+                <h4>Advertisment</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sideber-ads">
+            <div class="sideber-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/mark.png">
+                </div>
+                <p>Mark Zuckerberg</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/Billgets.png">
+                </div>
+                <p>Bill Gates</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/Alen mask.png">
+                </div>
+                <p>Elon Musk</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/jeep bejos.png">
+                </div>
+                <p>Jeff Bezos</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/mojib.png">
+                </div>
+                <p>Sheakh Mojibor Rahman</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/sazzad.png">
+                </div>
+                <p>Sazzad Shuvo</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/rony.png">
+                </div>
+                <p>Rony Talukder</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png">
+                </div>
+                <p>Alisha Mona</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png">
+                </div>
+                <p>Meheran</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png">
+                </div>
+                <p>Jesika</p>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- container-part end -->
+    <!-- copyright-part start-->
+    <div class="footer">
+        <p>Copyright &copy; Feb 2022 Design by @Ab.Malek</p>
+    </div>
+    <!-- copyright-part end-->
+    <!--  back-to-top start -->
+    <div class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!--  back-to-top end -->
+    <!-- jQuary java -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <!-- main java -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
